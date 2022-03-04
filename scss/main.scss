@@ -1,0 +1,29 @@
+* { 
+      margin: 0;
+      padding: 0;
+      font-family:monospace;
+}
+
+body {
+      background-color: orange;
+      .bigcontainer { 
+            position: relative;
+            top: 40vh;
+      }
+      h1 { 
+            text-align: center;
+      }
+      .container { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            button { 
+                  padding: 0.5rem;
+            }
+      }
+      .displayContainer {
+            color: white;
+      }
+      
+}
